@@ -1,0 +1,28 @@
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.imge h2{
+   margin-top: 18px;
+}
+.p{
+    
+ color: #056490;
+font-weight: 400;
+font-size: 28px;
+padding: 6px 0 12px;
+}
+.p1{
+    margin: 0 80px;
+    padding: 0 40px;
+}
+.destination h2{
+    margin: 16px 0;
+    font-weight: bold;
+    color: #c94208;
+    
+}
+body{
+    background-color: #e0dccc;
+}

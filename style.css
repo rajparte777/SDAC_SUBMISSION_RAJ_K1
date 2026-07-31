@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+     box-sizing: border-box;
+}
+    /* padding: 0; */
+
+.nav{
+    display: flex;
+   justify-content: space-evenly;
+   
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.nav a:hover{
+    color: rgb(222, 86, 37);
+    cursor: pointer;
+   
+    text-shadow: 5px 5px 12px rgb(235, 232, 234);
+}
+h1:hover{
+    color: rgb(253, 11, 51);
+}
+header{
+      background-color: #199d90;
+    color: rgb(239, 238, 239);
+    padding: 12px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

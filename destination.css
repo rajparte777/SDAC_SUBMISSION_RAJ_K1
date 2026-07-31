@@ -1,0 +1,57 @@
+.table{
+ justify-content: center;
+    display: flex;
+    margin: 36px 0;
+}
+
+ table{
+            width:60%;
+            margin:auto;
+            border-collapse:collapse;
+            text-align:center;
+        }
+table,th,td{
+    border: 2px solid black;
+}
+th{
+    
+    padding: 12px;
+}
+td{
+    padding: 10px;
+}
+
+
+h2{
+    margin-top: 24px;
+    color: rgb(99, 16, 177);
+    font-weight: bolder;
+}
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 16px 0;
+}
+img{
+    width: 420px;
+    
+}
+.country{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-container h2{
+    color: rgb(67, 7, 233);
+   
+}
+.img-container  a{
+    text-decoration: none;
+}
+.img-container h2:hover{
+  color: deeppink;
+ text-decoration: underline;
+  cursor: pointer;
+}
+#img1{
+    height: 284px;
+}
