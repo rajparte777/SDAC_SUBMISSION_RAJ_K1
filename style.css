@@ -19,13 +19,12 @@
     font-family: "Roboto", sans-serif;
 }
 .nav a:hover{
-    color: rgb(222, 86, 37);
+    color: rgb(209, 13, 13);
     cursor: pointer;
-   
-    text-shadow: 5px 5px 12px rgb(235, 232, 234);
+    text-shadow: 5px 5px 16px rgb(255, 0, 222);
 }
 h1:hover{
-    color: rgb(253, 11, 51);
+    color: rgb(41, 238, 70);
 }
 header{
       background-color: #199d90;
