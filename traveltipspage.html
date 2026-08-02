@@ -45,12 +45,19 @@
         button{
              width: 100px;
              height: auto;
-             margin: 10px 0;
+             margin: 24px 0;
            padding: 8px 16px;
              text-align: center;
+             border-radius: 5px;
+             outline: none;
         }
-        #message{
-            height: 80px;
+         button:hover{
+           background-color: chartreuse;
+           border: 1px solid black;
+        }
+        textarea{
+            height: 60px;
+            margin-top: 4px;
         }
     </style>
 </head>
@@ -65,7 +72,7 @@
             <a href="travelblog.html">Travel Blog</a>
                <a href="traveltipspage.html">Travel Tips</a>
             <a href="">Contact</a>
-            <a href="">Login</a>
+            <a href="login.html">Login</a>
             <a href="registration.html">Registration</a>
         </div>
         
@@ -91,8 +98,8 @@
             <div class="inp">
               Name  : <input type="text" placeholder="Enter your Name">
                  Email : <input type="email" name="" id="" placeholder="Email">
-                Message : <input type="text" placeholder="Message" id="message">
-                <a href=""><button type="submit">Submit</button></a>
+              Message : <textarea name="Message" id="" placeholder="Message" ></textarea>
+             <center>  <a href="contact.html"><button type="submit">Submit</button></a></center>
             </div>
          </section>
          </div>
