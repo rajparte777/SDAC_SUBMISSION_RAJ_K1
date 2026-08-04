@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    background-color: rgb(103, 237, 103);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+main{
+    padding-top: 120px;
+}
+.section-1{
+    background-color: aquamarine;
+    height: 100px;
+    position: relative;
+    left: 30px;
+    opacity: 0.8;
+    width: 95%;
+}
+.section-2{
+    background-color: rgb(174, 7, 165,0.4);
+    width: 100px;
+    height: 80px;
+     right: 50px;
+     position: absolute;
+     top: 30px;
+}
+.section-3 i{
+    font-size: 48px;
+    position: sticky;
+    color: palevioletred;
+    margin-left: 80%;
+    margin-top: 50px;
+    top: 30px;
+    z-index: 2;
+}
