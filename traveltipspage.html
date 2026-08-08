@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .mainbody{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+                margin: 16px 40px;
+                padding: 12px 16px;
+        }
+        p{
+            font-size: 26px;
+            font-weight: 700;
+        }
+        .ulli{
+            margin-top: 24px;
+        }
+        h3{
+            font-size: 24px;
+        }
+        .contact{
+            margin-top: 36px;
+        }
+        .inp{
+            margin-top: 28px;
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            /* width: 20%; */
+         border: none;
+        outline: none;
+            font-size: 15px;
+             padding: 5px 8px;
+      margin: 12px 0;
+              height: 32px;
+              letter-spacing: 0.5px;
+        }
+        button{
+             width: 100px;
+             height: auto;
+             margin: 24px 0;
+           padding: 8px 16px;
+             text-align: center;
+             border-radius: 5px;
+             outline: none;
+        }
+         button:hover{
+           background-color: chartreuse;
+           border: 1px solid black;
+        }
+        textarea{
+            height: 60px;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+          <center>  <h1>Travel Tips Page</h1></center>
+             </div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="destination.html">Destination</a>
+            <a href="travelblog.html">Travel Blog</a>
+               <a href="traveltipspage.html">Travel Tips</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Registration</a>
+        </div>
+        
+       
+    </header>
+   <main class="mainbody">
+         <section>
+            <p>Usefull Travel Tips</p>
+          <div class="ulli">
+            <ul>
+               <li>Pack Light</li>
+    <li>Stay Hydrated</li>
+    <li>Keep your documents safe</li>
+    <li>Plan your trip in advance</li>
+    <li>Carry essential items only</li>
+            </ul>
+          </div>
+         </section>
+
+         <div>
+            <section class="contact">
+            <h3>Contact Us</h3>
+            <div class="inp">
+              Name  : <input type="text" placeholder="Enter your Name">
+                 Email : <input type="email" name="" id="" placeholder="Email">
+              Message : <textarea name="Message" id="" placeholder="Message" ></textarea>
+             <center>  <a href="contact.html"><button type="submit">Submit</button></a></center>
+            </div>
+         </section>
+         </div>
+   </main>
+
+  
+    <footer style="padding: 16px; background-color: #199d90;
+    color: rgb(239, 238, 239);margin-top: 36px;">
+        <center>© 2026 Travel and Adventure. All Rights Reserved.</center>
+    </footer>
+</body>
+</html>
