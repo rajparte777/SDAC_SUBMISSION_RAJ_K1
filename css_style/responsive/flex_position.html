@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            box-sizing: border-box;
+              background-color: antiquewhite;
+              min-width: 400px;
+        }
+        nav{
+            background-color: rgb(201, 152, 30);
+            padding: 24px 0;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        nav a{
+            font-size: 24px;
+            text-decoration: none;
+            color: white;
+        }
+        main{
+            margin-top: 28px;
+            display: flex;
+            justify-content: space-evenly;
+          
+        }
+        section{
+            max-width: 400px;
+            background-color: rgb(240, 111, 176);
+
+        }
+        img{
+            width: 100%;
+        }
+        p{
+            padding: 4px 8px;
+        }
+        @media (max-width:1200px){
+            main{
+              flex-wrap: wrap;
+
+            }
+            section{
+                margin: 16px;
+            }
+        }
+        @media (max-width:600px){
+            main{
+              flex-wrap: wrap;
+
+            }
+            section{
+                margin: 12px;
+            }
+               nav{
+            background-color: rgb(201, 152, 30);
+            padding: 24px 0;
+            display: flex;
+         flex-direction: column;
+        }
+        nav a{
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            padding: 12px 0;
+        }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About US</a>
+        <a href="">Contact</a>
+        <a href="">Register</a>
+        <a href="">Login</a>
+    </nav>
+    <main>
+        <section class="section-1">
+          <img src="../../img/bali post2.webp" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat in rem recusandae sequi. Incidunt illo ad deleniti? Eveniet dolorum molestiae iusto sunt. Magni exercitationem, et earum dolore iste quaerat, dolor ipsum deserunt in nesciunt illo vero eius atque itaque!</p>
+        </section>
+        <section class="section-2">
+          <img src="../../img/dubai.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat in rem recusandae sequi. Incidunt illo ad deleniti? Eveniet dolorum molestiae iusto sunt. Magni exercitationem, et earum dolore iste quaerat, dolor ipsum deserunt in nesciunt illo vero eius atque itaque!</p>
+        </section>
+        <section class="section-3">
+          <img src="../../img/paris.jpeg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat in rem recusandae sequi. Incidunt illo ad deleniti? Eveniet dolorum molestiae iusto sunt. Magni exercitationem, et earum dolore iste quaerat, dolor ipsum deserunt in nesciunt illo vero eius atque itaque!</p>
+        </section>
+    </main>
+</body>
+</html>

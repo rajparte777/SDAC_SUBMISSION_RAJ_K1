@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video{
+            width: 100%;
+        }
+        .v2{
+display: none;
+        }
+        h1{
+            font-size: 48px;
+              position: absolute;
+              z-index: 1;
+              color: brown;
+        }
+        
+        @media (prefers-color-scheme: dark){
+            .v2{
+                display: block;
+
+            }
+            .v1{
+                display: none;
+            }
+            h1{
+                color: greenyellow;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 class="v1">Morning</h1>
+    <h1 class="v2">Night</h1>
+    <video class="v1" src="../../video/handspace.mp4"></video>
+    <video class="v2" src="../../video/potrate.mp4"></video>
+</body>
+</html>
