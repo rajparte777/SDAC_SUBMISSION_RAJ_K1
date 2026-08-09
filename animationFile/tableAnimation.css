@@ -1,0 +1,58 @@
+body{
+  
+   /* height: 100vh; */
+    margin: 0;
+    background: linear-gradient(135deg,yellow,rgb(241, 36, 36),rgb(248, 100, 191),rgb(88, 88, 190),rgba(238, 55, 238, 0.849),rgb(197, 132, 132),rgb(98, 228, 98));
+     animation: t 8s ease  infinite ;
+        background-size: 500% 500%;
+}
+@keyframes t {
+    0%,100%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+}
+.container{
+    margin: auto;
+    margin-top: 80px;
+    max-width: 80%;
+    box-shadow: 0 12px 32px black;
+    border-radius: 8px solid black;
+  
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+tr{
+    text-align: center;
+}
+th{
+    padding: 20px;
+    font-weight: 800;
+    background-color: rgb(43, 249, 49);
+}
+td{
+    padding: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+tr:nth-child(odd){
+ background-color: rgb(41, 233, 243);
+}
+td::before{
+    content: '👍';
+}
+td:hover{
+    transition:transform 2s ;
+    /* transform: rotateX(380deg); */
+    /* transform: translateX(30px); */
+    /* transform:translate(40px,30px) ; x and y diection*/
+       /* transform: scale(2); */
+       /* transform: skew(130deg); */
+       transform: perspective(500px) rotateX(45deg);
+}
